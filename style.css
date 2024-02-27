@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: url('img/Desktop\ -\ 2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Jockey One';
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+.menu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-right: 40px;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 26px;
+    color: white;
+}
+
