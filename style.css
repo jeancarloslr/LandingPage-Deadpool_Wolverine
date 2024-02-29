@@ -9,7 +9,7 @@ body{
     height: 100vh;
     background-image: url('img/Desktop\ -\ 2.svg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     color: white;
     font-family: 'Jockey One';
 }
